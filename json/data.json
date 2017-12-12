@@ -1,0 +1,318 @@
+{
+    "components": [
+        {
+            "key": "panel",
+            "input": false,
+            "title": "mail form",
+            "theme": "default",
+            "tableView": false,
+            "components": [
+                {
+                    "input": true,
+                    "tableView": true,
+                    "inputType": "email",
+                    "label": "From",
+                    "key": "panelFrom",
+                    "placeholder": "",
+                    "prefix": "",
+                    "suffix": "",
+                    "defaultValue": "",
+                    "protected": false,
+                    "unique": false,
+                    "persistent": true,
+                    "hidden": false,
+                    "clearOnHide": true,
+                    "kickbox": {
+                        "enabled": false
+                    },
+                    "type": "email",
+                    "tags": [],
+                    "conditional": {
+                        "show": "",
+                        "when": null,
+                        "eq": ""
+                    },
+                    "properties": {
+                        "": ""
+                    },
+                    "lockKey": true
+                },
+                {
+                    "input": true,
+                    "tableView": true,
+                    "inputType": "text",
+                    "inputMask": "",
+                    "label": "To",
+                    "key": "panelTo",
+                    "placeholder": "",
+                    "prefix": "",
+                    "suffix": "",
+                    "multiple": false,
+                    "defaultValue": "",
+                    "protected": false,
+                    "unique": false,
+                    "persistent": true,
+                    "hidden": false,
+                    "clearOnHide": true,
+                    "validate": {
+                        "required": true,
+                        "minLength": "",
+                        "maxLength": "",
+                        "pattern": "",
+                        "custom": "",
+                        "customPrivate": false
+                    },
+                    "conditional": {
+                        "show": "",
+                        "when": null,
+                        "eq": ""
+                    },
+                    "type": "textfield",
+                    "tags": [],
+                    "properties": {
+                        "": ""
+                    }
+                },
+                {
+                    "input": true,
+                    "tableView": true,
+                    "inputType": "text",
+                    "inputMask": "",
+                    "label": "Subject",
+                    "key": "panelSubject",
+                    "placeholder": "",
+                    "prefix": "",
+                    "suffix": "",
+                    "multiple": false,
+                    "defaultValue": "",
+                    "protected": false,
+                    "unique": false,
+                    "persistent": true,
+                    "hidden": false,
+                    "clearOnHide": true,
+                    "validate": {
+                        "required": false,
+                        "minLength": "",
+                        "maxLength": "",
+                        "pattern": "",
+                        "custom": "",
+                        "customPrivate": false
+                    },
+                    "conditional": {
+                        "show": "",
+                        "when": null,
+                        "eq": ""
+                    },
+                    "type": "textfield",
+                    "tags": [],
+                    "properties": {
+                        "": ""
+                    }
+                },
+                {
+                    "input": true,
+                    "tableView": true,
+                    "inputType": "text",
+                    "inputMask": "",
+                    "label": "Attachment",
+                    "key": "panelAttachment",
+                    "placeholder": "",
+                    "prefix": "",
+                    "suffix": "",
+                    "multiple": false,
+                    "defaultValue": "",
+                    "protected": false,
+                    "unique": false,
+                    "persistent": true,
+                    "hidden": false,
+                    "clearOnHide": true,
+                    "validate": {
+                        "required": false,
+                        "minLength": "",
+                        "maxLength": "",
+                        "pattern": "",
+                        "custom": "",
+                        "customPrivate": false
+                    },
+                    "conditional": {
+                        "show": "",
+                        "when": null,
+                        "eq": ""
+                    },
+                    "type": "textfield",
+                    "tags": [],
+                    "properties": {
+                        "": ""
+                    }
+                },
+                {
+                    "input": true,
+                    "tableView": true,
+                    "label": "",
+                    "key": "panelTextareaField",
+                    "placeholder": "",
+                    "prefix": "",
+                    "suffix": "",
+                    "rows": 3,
+                    "multiple": false,
+                    "defaultValue": "",
+                    "protected": false,
+                    "persistent": true,
+                    "hidden": false,
+                    "wysiwyg": {
+                        "width": "100%",
+                        "height": "200px",
+                        "uiColor": "#eeeeee",
+                        "removeButtons": "Cut,Copy,Paste,Underline,Subscript,Superscript,Scayt,About",
+                        "extraPlugins": "justify,font",
+                        "toolbarGroups": [
+                            {
+                                "name": "basicstyles",
+                                "groups": [
+                                    "basicstyles",
+                                    "cleanup"
+                                ]
+                            },
+                            {
+                                "name": "paragraph",
+                                "groups": [
+                                    "list",
+                                    "indent",
+                                    "blocks",
+                                    "align",
+                                    "bidi",
+                                    "paragraph",
+                                    "-",
+                                    "JustifyLeft",
+                                    "JustifyCenter",
+                                    "JustifyRight",
+                                    "JustifyBlock"
+                                ]
+                            },
+                            {
+                                "name": "links",
+                                "groups": [
+                                    "links"
+                                ]
+                            },
+                            {
+                                "name": "insert",
+                                "groups": [
+                                    "insert"
+                                ]
+                            },
+                            "/",
+                            {
+                                "name": "styles",
+                                "groups": [
+                                    "Styles",
+                                    "Format",
+                                    "Font",
+                                    "FontSize"
+                                ]
+                            },
+                            {
+                                "name": "colors",
+                                "groups": [
+                                    "colors"
+                                ]
+                            },
+                            {
+                                "name": "clipboard",
+                                "groups": [
+                                    "clipboard",
+                                    "undo"
+                                ]
+                            },
+                            {
+                                "name": "editing",
+                                "groups": [
+                                    "find",
+                                    "selection",
+                                    "spellchecker",
+                                    "editing"
+                                ]
+                            },
+                            {
+                                "name": "document",
+                                "groups": [
+                                    "mode",
+                                    "document",
+                                    "doctools"
+                                ]
+                            },
+                            {
+                                "name": "others",
+                                "groups": [
+                                    "others"
+                                ]
+                            },
+                            {
+                                "name": "tools",
+                                "groups": [
+                                    "tools"
+                                ]
+                            }
+                        ]
+                    },
+                    "clearOnHide": true,
+                    "validate": {
+                        "required": false,
+                        "minLength": "",
+                        "maxLength": "",
+                        "pattern": "",
+                        "custom": ""
+                    },
+                    "type": "textarea",
+                    "tags": [],
+                    "conditional": {
+                        "show": "",
+                        "when": null,
+                        "eq": ""
+                    },
+                    "properties": {
+                        "": ""
+                    }
+                }
+            ],
+            "type": "panel",
+            "breadcrumb": "default",
+            "tags": [],
+            "conditional": {
+                "show": "",
+                "when": null,
+                "eq": ""
+            },
+            "properties": {
+                "": ""
+            },
+            "lockKey": true
+        },
+        {
+            "isNew": false,
+            "custom": "var url = window.location.href;\nvar qs = parse_query_string(url);\nvar settings = {\n  \"async\": true,\n  \"crossDomain\": true,\n  \"url\": \"https://togetherservice.azurewebsites.net/api/callsp\",\n  \"method\": \"POST\",\n  \"headers\": {\n    \"content-type\": \"application/json\",\n    \"authorization\": \"Bearer \"+qs.id_token,\n    \"cache-control\": \"no-cache\"\n  },\n  \"processData\": false,\n  \"data\": \"{\\n    \\\"sender\\\": \\\"\"+ form.submission.data.panelFrom +\"\\\",\\n    \\\"receiver\\\": \\\"\"+ form.submission.data.panelTo +\"\\\",\\n    \\\"subject\\\": \\\"\"+ form.submission.data.panelSubject +\"\\\",\\n    \\\"attachment_url\\\": \\\"\"+ form.submission.data.panelAttachment +\"\\\",\\n    \\\"body\\\": \\\"\"+ form.submission.data.panelTextareaField +\"\\\"\\n}\"\n}\n\n$.ajax(settings).done(function () {  \nform.setAlert('success', 'The mail has been sent successfully.');\nalert( 'The mail has been sent successfully.');\nform.reset();\nform.render();\nconsole.log(\"success\");   \n}).fail(function (error){\nform.setAlert('danger',  'Unsent the email');\n});",
+            "input": true,
+            "label": "Submit",
+            "tableView": false,
+            "key": "submit",
+            "size": "md",
+            "leftIcon": "",
+            "rightIcon": "",
+            "block": false,
+            "action": "submit",
+            "disableOnInvalid": false,
+            "theme": "primary",
+            "type": "button",
+            "tags": [],
+            "conditional": {
+                "show": "",
+                "when": null,
+                "eq": ""
+            },
+            "properties": {
+                "": ""
+            }
+        }
+    ],
+    "type": "form"
+}
